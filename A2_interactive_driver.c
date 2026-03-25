@@ -17,7 +17,7 @@
  */
 
 #include<string.h>
-#include"BSTs_1011127460.c"
+#include"BSTs.c"
 
 void get_barindex(int *bar, double *index)
 {

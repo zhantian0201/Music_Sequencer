@@ -69,7 +69,7 @@ void read_note_table(void)
     char line[1024];
     int idx;
    
-    f=fopen("C:\\Users\\Dora\\Desktop\\note_frequencies.txt","r");
+    f=fopen("note_frequencies.txt","r");
     if (f==NULL)
     {
       printf("Unable to open note frequencies file!\n");
@@ -387,7 +387,7 @@ void play_notes(int bar_length)
 
  fprintf(stderr,"\nPlaying song. %d bars, max note length is %d samples. Output is 'output.wav'\n\n",max_bar,max_length); 
 
- f=fopen("C:\\Users\\Dora\\Desktop\\output.wav","wb+");	// Open file 'output.wav' for writing. Mind the file type if you work on Windows
+ f=fopen("output.wav","wb+");	// Open file 'output.wav' for writing. Mind the file type if you work on Windows
  if (f)
  {
   write_wav_header(f,max_sample_idx);

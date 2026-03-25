@@ -33,7 +33,7 @@
  * (c) F. Estrada 
  */
 
-#include "BSTs_1011127460.c"
+#include "BSTs.c"
 
 int main()
 {
